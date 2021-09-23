@@ -92,24 +92,28 @@
   align-items: center;
   align-content: center;
 }
-#contato li div {
-  display: flex;
-  align-content: center;
-  margin-top: 15%;
-  margin-left: 130px;
-}
-#contato li div a {
-  padding-right: 20px;
-  padding-left: 20px;
-}
 #contato h3 {
   color: #33af8d;
   text-align: center;
   font-size: 1.25rem;
 }
+#contato li div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contato li div div {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+#contato li div div a {
+  padding: 10px;
+}
+
 #contato li iframe {
   padding: 5px;
-  margin-left: 140px;
 }
 
 .redes a img {
