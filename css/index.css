@@ -83,6 +83,7 @@
 #contato ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 #contato li {
