@@ -4,7 +4,9 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  border-bottom: 4px #424242 solid;
+  border-bottom: 4px #33af8d solid;
+  padding: 40px;
+  margin-bottom: 20px;
 }
 #menu ul {
   max-width: 800px;
@@ -32,11 +34,104 @@
 
 #carousel {
   padding-top: 10px;
-  padding-bottom: 10px;
-
-  border-bottom: 4px #424242 solid;
+  padding-bottom: 30px;
+  border-bottom: 4px #33af8d solid;
 }
 #carousel img {
   width: 100%;
   height: 450px;
+}
+
+.card-group {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card {
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
+.card h5 {
+  color: #33af8d;
+}
+
+#sobre {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 4px #33af8d solid;
+  padding-top: 30px;
+}
+#sobre h3 {
+  color: #33af8d;
+  font-size: 1.5em;
+}
+#sobre p {
+  text-indent: 10px;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+#contato {
+  margin-top: 20px;
+  border-top: 4px #33af8d solid;
+  border-bottom: 4px #33af8d solid;
+}
+#contato ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+#contato li {
+  flex: 1;
+  margin: 20px;
+  align-items: center;
+  align-content: center;
+}
+#contato li div {
+  display: flex;
+  align-content: center;
+  margin-top: 15%;
+  margin-left: 130px;
+}
+#contato li div a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#contato h3 {
+  color: #33af8d;
+  text-align: center;
+  font-size: 1.25rem;
+}
+#contato li iframe {
+  padding: 5px;
+  margin-left: 140px;
+}
+
+.redes a img {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+}
+
+#rodape {
+  color: #33af8d;
+  display: flex;
+  flex-direction: column;
+  text-decoration: inherit;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  font-size: 13px;
+}
+#rodape a {
+  text-decoration: none;
+  color: #33af8d;
+}
+#rodape a:hover {
+  text-decoration: underline;
 }
